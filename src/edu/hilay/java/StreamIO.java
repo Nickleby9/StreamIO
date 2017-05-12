@@ -49,7 +49,6 @@ public class StreamIO {
     }
 
     public static String readWebsite(String address) throws IOException {
-        StringBuilder data = new StringBuilder();
         URL url = null;
         try {
             url = new URL(address);
